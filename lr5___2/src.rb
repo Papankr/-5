@@ -1,4 +1,4 @@
-require '/Users/tenzy/Desktop/lr5___2/main5___2.rb'
+require '/main.rb'
 
 puts 'Enter str: '
 str = gets

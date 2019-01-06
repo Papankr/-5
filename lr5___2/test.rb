@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'test/unit'
-require '/Users/tenzy/Desktop/lr5___2/main5___2.rb'
+require '/main.rb'
 
 # Test for part2
 class Test2 < Test::Unit::TestCase

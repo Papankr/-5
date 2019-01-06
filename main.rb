@@ -1,8 +1,7 @@
-require '/Users/tenzy/Desktop/5func.rb'
-puts 'Input an argument(x)'
-x = gets.to_f
-begin
-puts "e^x/(tg(x^3-5) +x^2 = #{func(x)}"
-rescue RuntimeError => e
-  puts e.message
+def func(x)
+  if Math.cos(x**3 - 5) != 0
+    (Math::E**x) / Math.tan(x**3 - 5) + x**2
+  else
+    raise('ERROR! with this argument, tangent does not exist!')
+  end
 end
